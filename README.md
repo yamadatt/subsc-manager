@@ -1,25 +1,12 @@
-# subsc-manager
+# React + Vite
 
-React を使用したサブスクリプション管理アプリです。Vite で構築しており、ESLint による Lint が可能です。
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## セットアップ
-1. 依存関係をインストールします。
-   ```bash
-   npm install
-   ```
-2. 開発サーバーを起動します。
-   ```bash
-   npm run dev
-   ```
-3. ESLint を実行する場合は以下を使用します。
-   ```bash
-   npm run lint
-   ```
+Currently, two official plugins are available:
 
-## 機能
-- 日本円とドル建てで価格を登録
-- ドルの場合、最新の為替レートを取得して円換算額を表示
-- 月額・年額の選択が可能
-- シンプルでモダンな UI
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-外部 API にアクセスできる環境が必要です。
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
